@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>PinewardensOath</AssemblyName>
+    <RootNamespace>PinewardensOath</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <ValheimDir>$(HOME)/.local/share/Steam/steamapps/common/Valheim</ValheimDir>
+    <Managed>$(ValheimDir)/valheim_Data/Managed</Managed>
+    <BepCore>$(ValheimDir)/BepInEx/core</BepCore>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="$(BepCore)/BepInEx.dll" Private="false" />
+    <Reference Include="$(BepCore)/0Harmony.dll" Private="false" />
+    <Reference Include="$(ValheimDir)/BepInEx/plugins/ValheimModding-Jotunn/Jotunn.dll" Private="false" />
+    <Reference Include="$(Managed)/assembly_valheim.dll" Private="false" />
+    <Reference Include="$(Managed)/assembly_utils.dll" Private="false" />
+    <Reference Include="$(Managed)/UnityEngine.dll" Private="false" />
+    <Reference Include="$(Managed)/UnityEngine.CoreModule.dll" Private="false" />
+    <Reference Include="$(Managed)/UnityEngine.ImageConversionModule.dll" Private="false" />
+    <Reference Include="$(Managed)/UnityEngine.PhysicsModule.dll" Private="false" />
+    <Reference Include="$(Managed)/UnityEngine.ParticleSystemModule.dll" Private="false" />
+  </ItemGroup>
+</Project>
