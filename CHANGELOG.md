@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2
+
+- New model for Stillbough (bow). The amber ornament moved from the middle of the grip to above it, so your hand no longer covers it or clips through it.
+
 ## 1.0.1
 
 - New icon. No gameplay changes.
