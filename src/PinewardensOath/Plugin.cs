@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace PinewardensOath
 {
-    [BepInPlugin(Guid, "Pinewarden's Oath", "1.0.2")]
+    [BepInPlugin(Guid, "Pinewarden's Oath", "1.0.3")]
     [BepInDependency(Jotunn.Main.ModGuid)]
     [BepInDependency("Therzie.Warfare", BepInDependency.DependencyFlags.SoftDependency)]
     public class Plugin : BaseUnityPlugin
