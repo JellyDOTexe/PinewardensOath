@@ -38,3 +38,7 @@ Needs Jotunn.
 ## Multiplayer
 
 It adds items, so everyone on the server needs it, and so does a dedicated server.
+
+## Bugs
+
+Found a bug? Open an issue on [GitHub](https://github.com/JellyDOTexe/PinewardensOath/issues) and I'll take a look.
